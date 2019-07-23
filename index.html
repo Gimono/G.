@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Gimono Grace</title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+	<h1>This is my Portfolio Page</h1>
+	<div class="main">
+		<img src="pics/dad.jpg" height="400px" width="35%">
+		<div class="info">
+			<pre>
+			samia.
+			lovess GOD.
+			 Needs enough care.
+			</pre>
+		</div>
+	</div>
+
+	<script >
+		let grace = new Date();
+		console.log(grace);
+		let heading = document.createElement("H1");
+		document.querySelector("h1").innerHTML = `<h1>${grace}</h1>`;
+		document.querySelector("body").append(heading);
+		document.querySelector("h1").style.color = "yellow";
+	</script>
+
+</body>
+</html>
